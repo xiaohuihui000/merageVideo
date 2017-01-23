@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE822491E1B75D500EAF773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE822481E1B75D500EAF773 /* main.m */; };
+		DEE8224C1E1B75D500EAF773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE8224B1E1B75D500EAF773 /* AppDelegate.m */; };
+		DEE8224F1E1B75D500EAF773 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE8224E1E1B75D500EAF773 /* ViewController.m */; };
+		DEE822521E1B75D500EAF773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE822501E1B75D500EAF773 /* Main.storyboard */; };
+		DEE822541E1B75D500EAF773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE822531E1B75D500EAF773 /* Assets.xcassets */; };
+		DEE822571E1B75D500EAF773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE822551E1B75D500EAF773 /* LaunchScreen.storyboard */; };
+		DEE822621E1B75D500EAF773 /* videoMerageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE822611E1B75D500EAF773 /* videoMerageTests.m */; };
+		DEE8226D1E1B75D500EAF773 /* videoMerageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE8226C1E1B75D500EAF773 /* videoMerageUITests.m */; };
+		DEE8227B1E1B778000EAF773 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE8227A1E1B778000EAF773 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE8225E1E1B75D500EAF773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE8223C1E1B75D500EAF773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE822431E1B75D500EAF773;
+			remoteInfo = videoMerage;
+		};
+		DEE822691E1B75D500EAF773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE8223C1E1B75D500EAF773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE822431E1B75D500EAF773;
+			remoteInfo = videoMerage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE822441E1B75D500EAF773 /* videoMerage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoMerage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE822481E1B75D500EAF773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEE8224A1E1B75D500EAF773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEE8224B1E1B75D500EAF773 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEE8224D1E1B75D500EAF773 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEE8224E1E1B75D500EAF773 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEE822511E1B75D500EAF773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE822531E1B75D500EAF773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE822561E1B75D500EAF773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEE822581E1B75D500EAF773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE8225D1E1B75D500EAF773 /* videoMerageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoMerageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE822611E1B75D500EAF773 /* videoMerageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoMerageTests.m; sourceTree = "<group>"; };
+		DEE822631E1B75D500EAF773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE822681E1B75D500EAF773 /* videoMerageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoMerageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE8226C1E1B75D500EAF773 /* videoMerageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoMerageUITests.m; sourceTree = "<group>"; };
+		DEE8226E1E1B75D500EAF773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE8227A1E1B778000EAF773 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE822411E1B75D500EAF773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE8227B1E1B778000EAF773 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8225A1E1B75D500EAF773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE822651E1B75D500EAF773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE8223B1E1B75D500EAF773 = {
+			isa = PBXGroup;
+			children = (
+				DEE8227A1E1B778000EAF773 /* AVFoundation.framework */,
+				DEE822461E1B75D500EAF773 /* videoMerage */,
+				DEE822601E1B75D500EAF773 /* videoMerageTests */,
+				DEE8226B1E1B75D500EAF773 /* videoMerageUITests */,
+				DEE822451E1B75D500EAF773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE822451E1B75D500EAF773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE822441E1B75D500EAF773 /* videoMerage.app */,
+				DEE8225D1E1B75D500EAF773 /* videoMerageTests.xctest */,
+				DEE822681E1B75D500EAF773 /* videoMerageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE822461E1B75D500EAF773 /* videoMerage */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8224A1E1B75D500EAF773 /* AppDelegate.h */,
+				DEE8224B1E1B75D500EAF773 /* AppDelegate.m */,
+				DEE8224D1E1B75D500EAF773 /* ViewController.h */,
+				DEE8224E1E1B75D500EAF773 /* ViewController.m */,
+				DEE822501E1B75D500EAF773 /* Main.storyboard */,
+				DEE822531E1B75D500EAF773 /* Assets.xcassets */,
+				DEE822551E1B75D500EAF773 /* LaunchScreen.storyboard */,
+				DEE822581E1B75D500EAF773 /* Info.plist */,
+				DEE822471E1B75D500EAF773 /* Supporting Files */,
+			);
+			path = videoMerage;
+			sourceTree = "<group>";
+		};
+		DEE822471E1B75D500EAF773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE822481E1B75D500EAF773 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE822601E1B75D500EAF773 /* videoMerageTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE822611E1B75D500EAF773 /* videoMerageTests.m */,
+				DEE822631E1B75D500EAF773 /* Info.plist */,
+			);
+			path = videoMerageTests;
+			sourceTree = "<group>";
+		};
+		DEE8226B1E1B75D500EAF773 /* videoMerageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8226C1E1B75D500EAF773 /* videoMerageUITests.m */,
+				DEE8226E1E1B75D500EAF773 /* Info.plist */,
+			);
+			path = videoMerageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE822431E1B75D500EAF773 /* videoMerage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE822711E1B75D500EAF773 /* Build configuration list for PBXNativeTarget "videoMerage" */;
+			buildPhases = (
+				DEE822401E1B75D500EAF773 /* Sources */,
+				DEE822411E1B75D500EAF773 /* Frameworks */,
+				DEE822421E1B75D500EAF773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videoMerage;
+			productName = videoMerage;
+			productReference = DEE822441E1B75D500EAF773 /* videoMerage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE8225C1E1B75D500EAF773 /* videoMerageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE822741E1B75D500EAF773 /* Build configuration list for PBXNativeTarget "videoMerageTests" */;
+			buildPhases = (
+				DEE822591E1B75D500EAF773 /* Sources */,
+				DEE8225A1E1B75D500EAF773 /* Frameworks */,
+				DEE8225B1E1B75D500EAF773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE8225F1E1B75D500EAF773 /* PBXTargetDependency */,
+			);
+			name = videoMerageTests;
+			productName = videoMerageTests;
+			productReference = DEE8225D1E1B75D500EAF773 /* videoMerageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEE822671E1B75D500EAF773 /* videoMerageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE822771E1B75D500EAF773 /* Build configuration list for PBXNativeTarget "videoMerageUITests" */;
+			buildPhases = (
+				DEE822641E1B75D500EAF773 /* Sources */,
+				DEE822651E1B75D500EAF773 /* Frameworks */,
+				DEE822661E1B75D500EAF773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE8226A1E1B75D500EAF773 /* PBXTargetDependency */,
+			);
+			name = videoMerageUITests;
+			productName = videoMerageUITests;
+			productReference = DEE822681E1B75D500EAF773 /* videoMerageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE8223C1E1B75D500EAF773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chenguanghui;
+				TargetAttributes = {
+					DEE822431E1B75D500EAF773 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DEE8225C1E1B75D500EAF773 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEE822431E1B75D500EAF773;
+					};
+					DEE822671E1B75D500EAF773 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEE822431E1B75D500EAF773;
+					};
+				};
+			};
+			buildConfigurationList = DEE8223F1E1B75D500EAF773 /* Build configuration list for PBXProject "videoMerage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE8223B1E1B75D500EAF773;
+			productRefGroup = DEE822451E1B75D500EAF773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE822431E1B75D500EAF773 /* videoMerage */,
+				DEE8225C1E1B75D500EAF773 /* videoMerageTests */,
+				DEE822671E1B75D500EAF773 /* videoMerageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE822421E1B75D500EAF773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE822571E1B75D500EAF773 /* LaunchScreen.storyboard in Resources */,
+				DEE822541E1B75D500EAF773 /* Assets.xcassets in Resources */,
+				DEE822521E1B75D500EAF773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8225B1E1B75D500EAF773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE822661E1B75D500EAF773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE822401E1B75D500EAF773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE8224F1E1B75D500EAF773 /* ViewController.m in Sources */,
+				DEE8224C1E1B75D500EAF773 /* AppDelegate.m in Sources */,
+				DEE822491E1B75D500EAF773 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE822591E1B75D500EAF773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE822621E1B75D500EAF773 /* videoMerageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE822641E1B75D500EAF773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE8226D1E1B75D500EAF773 /* videoMerageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE8225F1E1B75D500EAF773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE822431E1B75D500EAF773 /* videoMerage */;
+			targetProxy = DEE8225E1E1B75D500EAF773 /* PBXContainerItemProxy */;
+		};
+		DEE8226A1E1B75D500EAF773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE822431E1B75D500EAF773 /* videoMerage */;
+			targetProxy = DEE822691E1B75D500EAF773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE822501E1B75D500EAF773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE822511E1B75D500EAF773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE822551E1B75D500EAF773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE822561E1B75D500EAF773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE8226F1E1B75D500EAF773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEE822701E1B75D500EAF773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE822721E1B75D500EAF773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = videoMerage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiye.videoMerage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE822731E1B75D500EAF773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = videoMerage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiye.videoMerage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEE822751E1B75D500EAF773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = videoMerageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiye.videoMerageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videoMerage.app/videoMerage";
+			};
+			name = Debug;
+		};
+		DEE822761E1B75D500EAF773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = videoMerageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiye.videoMerageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videoMerage.app/videoMerage";
+			};
+			name = Release;
+		};
+		DEE822781E1B75D500EAF773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = videoMerageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiye.videoMerageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = videoMerage;
+			};
+			name = Debug;
+		};
+		DEE822791E1B75D500EAF773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = videoMerageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiye.videoMerageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = videoMerage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE8223F1E1B75D500EAF773 /* Build configuration list for PBXProject "videoMerage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE8226F1E1B75D500EAF773 /* Debug */,
+				DEE822701E1B75D500EAF773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE822711E1B75D500EAF773 /* Build configuration list for PBXNativeTarget "videoMerage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE822721E1B75D500EAF773 /* Debug */,
+				DEE822731E1B75D500EAF773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE822741E1B75D500EAF773 /* Build configuration list for PBXNativeTarget "videoMerageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE822751E1B75D500EAF773 /* Debug */,
+				DEE822761E1B75D500EAF773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE822771E1B75D500EAF773 /* Build configuration list for PBXNativeTarget "videoMerageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE822781E1B75D500EAF773 /* Debug */,
+				DEE822791E1B75D500EAF773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE8223C1E1B75D500EAF773 /* Project object */;
+}
